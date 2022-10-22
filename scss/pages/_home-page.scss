@@ -1,0 +1,138 @@
+
+.home{
+    min-height: 100vh;
+    padding-top: 40rem;
+    background: url(../images/louvre4.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .content h3{
+        font-size: 6.5rem;
+        color:rgba(255, 255, 255, 0.9);
+        text-transform: uppercase;
+        // text-align: center;
+        margin-left: 25rem;
+
+
+    }
+    
+}
+
+.btn{
+    display: inline-block;
+    padding:.9rem 1.5rem;
+    border-radius: 50% 92% 50% 95%;
+    color:white;
+    background: none;
+    border:.2rem solid white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    margin-left: 45rem;
+}
+
+.btn:hover{
+    border-radius: 95% 50% 92% 50%;
+    border:.3rem dashed white;
+    // background-color:#310000;
+}
+
+
+
+
+.heading{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:transparent;
+    -webkit-text-stroke: .1rem  black;
+    letter-spacing: .2rem;
+    text-align: center;
+    pointer-events: none;
+    position: relative;
+}
+
+.heading span{
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color:rgba(255, 98, 0, 0.801);
+    font-size: 4rem;
+}
+
+.about {
+    // background-color: bisque;
+    .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+
+    .image{
+        flex:1 1 45rem;
+        padding:1rem;
+
+        img{ 
+            width: 100%;
+            border-radius: .5rem;
+            border:1rem solid rgba(255, 98, 0, 0.991);;
+        }
+    }
+
+    .image2{
+        flex:1 1 45rem;
+        padding:1rem;
+
+        img{ 
+            width:80%;
+            height: 70vh;
+            border-radius: .5rem;
+            border:1rem solid rgba(255, 98, 0, 0.991);
+            margin-left: 150px;
+        }
+    }
+
+        .content{
+            flex:1 1 45rem;
+
+            h3{
+                font-size: 3.5rem;
+                color:rgb(5, 5, 5);
+                padding: 3rem 0;
+            }
+            
+            p{
+                font-size: 2rem;
+                color:rgb(16, 16, 16);
+                line-height: 1;
+            }
+            
+        }
+
+        .content2{
+            flex:1 1 45rem;
+
+            h3{
+                font-size: 3.5rem;
+                color:rgb(5, 5, 5);
+                padding: 3rem 0;
+                margin-left: 20px;
+            }
+            
+            p{
+                font-size: 2rem;
+                color:rgb(16, 16, 16);
+                line-height: 1;
+                margin-left: 20px;
+            }
+            
+        }
+        
+        
+
+
+
+    }
+}
+
+
