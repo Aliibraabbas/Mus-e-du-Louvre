@@ -1,0 +1,68 @@
+html{
+    font-size: 80%;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background:#fff;
+    box-shadow: 0 2rem 1rem rgba(125, 22, 22, 0.1);
+    padding:2rem 5%;
+    
+
+     .logo{
+        color:rgba(255, 98, 0, 0.991);
+        font-size: 2.3rem;
+        font-weight: bold;
+        align-items: center;
+
+        i{
+            padding-left: .5rem;
+            margin-right: 8px;
+            font-size: 1.3em;
+        }
+
+        &:hover {
+            color: #310000;
+        }
+    }
+
+    
+
+    .navbar a{
+        margin:0 1rem;
+        font-size: 1.7rem;
+        position: relative;
+        color:rgba(255, 98, 0, 0.991);
+        font-weight: bold;
+
+        &:hover {
+            color: #310000;
+        }
+    }
+
+    .btn{
+        margin-top: 0;
+    }
+    
+
+    #menu-btn{
+        font-size: 3rem;
+        color:rgba(255, 98, 0, 0.991);
+        cursor: pointer;
+        display: none;
+    }
+
+
+    
+    
+}
+
+
+
+
+
+
